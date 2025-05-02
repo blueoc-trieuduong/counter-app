@@ -55,7 +55,7 @@ function App() {
 
       <div className="card">
         <button
-          onClick={handleMinus}
+          onDoubleClick={handleMinus}
           disabled={list.length === 0}
         >
           -
